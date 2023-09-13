@@ -14,5 +14,32 @@
 **chmod**
 * In ls -l, the 9 -, the first 3 are users, next 3 are group, last 3 is others
 * Use chmod to change the permissions
-  * chmod u/g/o - or + to add or remove permissions and then what permission, r/w/x
+  * chmod u/g/o - or + to add or remove permissions and then what permission, r/w/x, and then what file
+
+**chown**
+* Change owners
+
+**chkconfig**
+* Shows system services, and at what level they are running at, at level 1 is whne the system boots up
+
+**crontab**
+* Helps trigger processes at regular time intervals, also shows what are the scheduled tasks
  
+**fpt**
+* File transfer protocol
+* Sends local file to remote server
+
+**ps**
+* Shows the processes running on the system, shows who envoked the procesess too
+* Most of the time its root, sometimes you
+
+**kill**
+* Terminates a process
+* use process ID, or process name
+* -9 kills process forcefully
+
+**ifconfig**
+* Shows all network interfaces on your system
+
+**nslookup**
+* Asks DNS to look up domain or IP for something
