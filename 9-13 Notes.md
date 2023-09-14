@@ -55,4 +55,7 @@
 * Be github
 * Basic website that takes input and has an output, and takes to the database to save the information
 * JS frameworks
-* automated backups of backend using shell scritps, use cronjob to automate it 
+* automated backups of backend using shell scritps, use cronjob to automate it
+
+# Quiz
+* Look up enviroment variables and what they are might be on quiz
