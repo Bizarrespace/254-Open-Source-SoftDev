@@ -8,3 +8,4 @@
 * man -k user means that we are searching the NAME section of the MAN pages for user as the keyword
 
 * # Stop at page 39
+https://linuxsurvival.com/changing-to-linux-home-directory/
