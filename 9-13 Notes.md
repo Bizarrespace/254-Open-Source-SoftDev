@@ -43,3 +43,16 @@
 
 **nslookup**
 * Asks DNS to look up domain or IP for something
+
+**"ls -l | grep hw.c"**
+* We look for hw.c within the ls -l list
+* | is a pipe symbol, taking the left things and using it as the input for the right side
+
+# Project
+* Web app with backend JS or PHP
+* Any app, but use open Source software to solve a problem
+* What license you publish
+* Be github
+* Basic website that takes input and has an output, and takes to the database to save the information
+* JS frameworks
+* automated backups of backend using shell scritps, use cronjob to automate it 
