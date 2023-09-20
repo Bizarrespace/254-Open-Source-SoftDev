@@ -27,6 +27,49 @@ What this does is changes the permissions of the read.txt file to add read, writ
 **User information**
 * use "finger" name to get information about a user on the system
 
+**Find file**
+```
+find ~ -name "poem*"
+```
+What this command does is start to find a file, start at the home directory, look for the name of that file and them the file starts with poem and can end with anything.
+* Remember that you have to put "" around the file name if you are going to use a wildcard
+* if you want to start at the current file and search from there you can just use "." 
 
-* # Stop at page 39
-https://linuxsurvival.com/changing-to-linux-home-directory/
+**Concatenate Files**
+* cat "File1" "File2" to print out the contents of both files
+* cat "File1" "File2" > "File3" would print those two into file3
+  * If you put two > than you would append to a file, instead of deleting what was already in it
+
+**Print**
+```
+lpr -P zephyr corny
+```
+sends corny file to a printer called zephyr
+* lpq to get the print status, lpq -P hp14 would show that printers status
+* lprm -P zephyr "job number" to remove a specific job
+
+# Module 4
+
+**Copy tree**
+* use -r argument with cp to copy entire directories
+```
+cp -r ~bookie/pools ~
+```
+copy bookie's pools diretory to my home directory
+* df to get the current disk space
+* rm -r to remove directory, and all its sub directories
+
+**Process Status**
+* ps aux to get list of all running processes
+
+**Pip output**
+* If you wanted to send the output of something to another command use the "|" \
+* Ex: cat joke1 joke2 | lpr -P zephyr
+
+**Pattern matching**
+* Use "grep" to find patterns in data
+* grep gold metals, to find all the ocurrances of gold in the file metals
+```
+cat joke1 joke2 | grep rabbit
+```
+List only lines containing rabbit in joke1 and joke2
