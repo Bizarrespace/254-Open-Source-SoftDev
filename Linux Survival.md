@@ -1,3 +1,6 @@
+**File permission**
+* If you wanted to add or change permissions
+
 **Manual Pages**
 * Man "command" to look up the manuel for the command
 * In the case you do not know what the name of the command is
