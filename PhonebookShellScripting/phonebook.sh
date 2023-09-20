@@ -13,8 +13,9 @@ else
 fi
 
 if [ "$1" = "new" ]; then
-  echo "$2" >> "$nameFile"
+  echo "$2" "$3">> "$nameFile"
   echo "Added '$2' to phonebook.txt"
+  echo "Added '$3' to phonebook.txt"
 fi
 
 if [ "$1" = "list" ]; then
