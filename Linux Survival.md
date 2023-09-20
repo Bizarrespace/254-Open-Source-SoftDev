@@ -73,3 +73,7 @@ copy bookie's pools diretory to my home directory
 cat joke1 joke2 | grep rabbit
 ```
 List only lines containing rabbit in joke1 and joke2
+
+**Terminate a process**
+* kill to end a process gracefully
+* kill -9 filename to kill the process right now
