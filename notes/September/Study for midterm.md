@@ -89,3 +89,16 @@ From what I remembered:
     * /srv: Data for services provided by the system
 * Basic commands:
   * Take a look at Quiz Prep for list of what the commands do
+
+# Lecture 4
+* What is vi?
+  * default editor that comes with Unix OS visual editor
+  * Two modes, command mode, insert mode
+    * Command mode: Commands which action to be taken on the file
+    * Insert mode: Text is inserted into the file
+  * :x vs :wq
+    * Both save the file and quit, slight difference is that :x only writes the buffer to disk only if it has been mod and then quit.
+    * :wq changes the mod time no matter what, :x does not change mod time if buffer hasn't changed
+    * :q would just quit without saving
+* What is ENV and Enviroment variables?
+* 
