@@ -56,4 +56,17 @@ From what I remembered:
 * CopyLeft: Everyone can run, copy and modify the program, but can not add restrictions of their own, keep the original restrictions
 
 # Lecture 2
-* 
+* GPL License
+  * Four Freedoms:
+    * Use software for any purpose
+    * Change SW to suit needs
+    * Share SW with others
+    * Share changes you make
+  * SW released under GNU GPL, will be free and stay free, no matter who changes or distributes the program
+  * CopyLeft: Requires derivated works or modified versions to be released under the same license, but not adding more restrictions
+* Apache Software Foundation
+  * Freely use, modify, distribute and sell software licensed under apache without worrying about the use of software: personal, internal or commerical
+  * Not considered copyleft, rather permissive. Lets you release modified parts of the code under any license of you choice, but required to release all unmod parts under same license (Apache)
+  * Dif between Apache and GNU GPL?
+    * GNU GPL is copyleft, have to relesae full source code and all rights to mod and distribute entire code
+    * Apache, you are not forced to release mod versions, and you can choose to release mod versions under dif license. 
