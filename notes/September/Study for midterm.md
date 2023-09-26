@@ -100,5 +100,15 @@ From what I remembered:
     * Both save the file and quit, slight difference is that :x only writes the buffer to disk only if it has been mod and then quit.
     * :wq changes the mod time no matter what, :x does not change mod time if buffer hasn't changed
     * :q would just quit without saving
-* What is ENV and Enviroment variables?
-* 
+* What is ENV and environment variables?
+  * Env is a shell command for linux, and unix. Used to print list of current environment variables if used Env without argument
+  * Can also use to run a program in a custom environment
+    * Example: If you had two python versions, 3.8 and 2.1, and you wanted to run 3.8, you would do env python3.8 script.py
+      * What this does is that env looks through the $PATH environment variable to look for the first occurrence of python3.8, and then use that exe to run the program at hand
+  * environment  Variables:
+    * Named object that contains data used by one or more apps. Variable with name and value
+    * Provides a simple way to share config settings between multiple apps and processes in linux
+      * Ex: 'USER' environment variable that stores the name of the current user
+      * Or PATH, list of directories that OS searches when you run a command or program such as ls
+    * Defined for the current shell and inherited by any child shells or processes, used to pass info into processes that are spawned from the shell
+    * *Shell Variables* are contained exclusively within the shell in which they were set, used to keep track of ephemeral data, like the current working directory
