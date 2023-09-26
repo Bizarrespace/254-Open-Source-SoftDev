@@ -10,7 +10,7 @@
 * Just consider working command
 * Run each case with screenshot, submit with code and data file in zip due next sunday
 
-**Midterm**
+# Midterm 
 * History of linux, how to install linux ,scenario based question with pesudocode
 * 25 MCQ
 * 3 Descriptive Questions
