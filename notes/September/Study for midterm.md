@@ -69,4 +69,15 @@ From what I remembered:
   * Not considered copyleft, rather permissive. Lets you release modified parts of the code under any license of you choice, but required to release all unmod parts under same license (Apache)
   * Dif between Apache and GNU GPL?
     * GNU GPL is copyleft, have to relesae full source code and all rights to mod and distribute entire code
-    * Apache, you are not forced to release mod versions, and you can choose to release mod versions under dif license. 
+    * Apache, you are not forced to release mod versions, and you can choose to release mod versions under dif license.
+
+# Lecture 3
+* File structure:
+  * Root directory "/": Top level directory in linux, starting point for all other directories
+  * Sub-directories:
+    * /bin: essential user command binaries, usually contains shells like bash, and commonly used commands like cp, mv, rm etc.
+    * /boot: Has files of the kernel and boot image
+    * /etc: contains core config files of the system used by admin like password file and networking files
+      * passwd file: General user info, like user ID, group ID, home directories and shell
+      * shadow file: Stores actual password encrypted, along with info about when the password expires, has the password been changed
+        * Only readable by the root account
