@@ -47,6 +47,16 @@
 * Commands
 * Scardio based on linux module 3 stuff
 
+**Scanario**
+```
+in /home/shi/documents
+cd /home/shi
+cd - (Takes you back to the previous)
+pwd
+```
+* What is the output of pwd:
+  * /home/shi/documents
+
 # 9-25 phonebook
 * Control flow:
   * Check if file exists, if does not exist than you just make a file
