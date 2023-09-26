@@ -81,3 +81,11 @@ From what I remembered:
       * passwd file: General user info, like user ID, group ID, home directories and shell
       * shadow file: Stores actual password encrypted, along with info about when the password expires, has the password been changed
         * Only readable by the root account
+  * Special directories:
+    * /proc: info about running processes
+    * /sys: info about system hardware and devices
+    * /root: Home directory of the root user
+    * /opt: Has optinoal software packages
+    * /srv: Data for services provided by the system
+* Basic commands:
+  * Take a look at Quiz Prep for list of what the commands do
