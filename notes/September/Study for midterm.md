@@ -112,3 +112,21 @@ From what I remembered:
       * Or PATH, list of directories that OS searches when you run a command or program such as ls
     * Defined for the current shell and inherited by any child shells or processes, used to pass info into processes that are spawned from the shell
     * *Shell Variables* are contained exclusively within the shell in which they were set, used to keep track of ephemeral data, like the current working directory
+
+# Lab 1
+* Need a hypervisor like Virutal Box, and then an ISO of ubuntu, then go through virtual box's new button and then go through those steps
+* Steps for using vi to make a hello world:
+  * touch hw.c, then vi hw.c
+  * hit "i" to start inserting, then type this basic c command
+  * ![image](https://github.com/Bizarrespace/254-Open-Source-SoftDev/assets/78052960/79889344-9200-4ac4-9346-19dd254b6006)
+  * then esc, :wq to save the file
+  * Then gcc hw.c to compile the file to get a a.out, run that a.out
+* Steps to printing out the date
+  * Use date command, and then format using "+%H:%M:%S    %d/%m/%y"
+  * ![image](https://github.com/Bizarrespace/254-Open-Source-SoftDev/assets/78052960/5bb39d63-18ba-48aa-af92-280e08e30887)
+* How to fix not being in sudoers problem:
+  * su root, then go and edit /etc/sudoers, look for root followed by ALL = ...
+  * Under that do Bizarrespace ALL = (ALL:ALL) ALL
+  * That command gives the user Bizarrespace all permissions, this solves the problem or not being able to install packages at first
+
+
