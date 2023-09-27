@@ -129,4 +129,33 @@ From what I remembered:
   * Under that do Bizarrespace ALL = (ALL:ALL) ALL
   * That command gives the user Bizarrespace all permissions, this solves the problem or not being able to install packages at first
 
+# Lab 3
+* Module 3 Focus:
+  * ~ represents your home directory
+    * If you wanted to copy a file called "Jokes" from home to /tmp do this:
+      * cp ~/jokes /tmp, rather than cp /home/keeper/jokes /tmp
+    * If you do ~UserID, it refers to their userID rather than yours, dont even have to know where that person's home is, ~ takes care of it
+  * Manual pages
+    * Under synopsis, if there is a "[]" around a arugment that means that it is optional
+    * -k and then keyword, search the manual pages for that keyword in the description of the manual pages
+  * Finger usage
+    * Use finger along with the name to find the userID, once we have the UserID we can do ~UserID to get the home directory of that user
+  * Find file
+    * find ~ -name "poem*"
+    * we are using the find command, telling it where to start, in this case would be our home directory
+    * We want to find the name of something, in our case poem* which is using a wildcard because we do not know if its poems or just poem, have to surround with "" if we want to use a wild card
+    * instead of name could also look for a size of a file, a lot you can do with it
+    * ., represents the current directory
+    * Find the joke file, search through the current directory
+      * find . -name "joke*"
+  * What happens when you do just cd?
+    * Goes to your home directory
+  * What are the important print commands?
+    * lpr: to request a print
+      * Use -P argument to specify what printer you want
+      * Ex: lpr -P hp14 thoughts
+    * lpq: display print queue
+    * lprm: remove from print queue
+      * Ex: lprm -P hp14 737 (job number)
+
 
