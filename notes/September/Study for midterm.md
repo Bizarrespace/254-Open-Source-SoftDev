@@ -202,4 +202,4 @@ foo $1
 * ./script world
 * we see, hello world
 
-
+* Understand lab 4 code, and be ready to add another function to the program
