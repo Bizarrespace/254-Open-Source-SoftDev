@@ -158,4 +158,48 @@ From what I remembered:
     * lprm: remove from print queue
       * Ex: lprm -P hp14 737 (job number)
 
+# Lab 4: Shell Scripting
+* If statements 
+```
+#!/bin/bash
+
+if [$1 -eq $2 ]; then
+echo args are equal
+else
+echo args are not equal
+fi
+
+```
+* if we do ./script 0 0
+  * we see args are equal
+  * ./script 0 1
+    * we see args are not equal
+
+* While statement
+```
+#!/bin/bash
+
+n = $1
+while [ $n -gt 0 ]; do
+echo $n
+let n = $n - 1
+
+done
+```
+* ./script 5 we see
+* 5 4 3 2 1
+
+* Functions: Very limited, just product output streams, no first class function
+```
+#!/bin/bash
+
+foo() {
+echo hello $1
+}
+
+foo $1
+```
+* ./script world
+* we see, hello world
+
 
