@@ -18,6 +18,6 @@
 ![image](https://github.com/Bizarrespace/254-Open-Source-SoftDev/assets/78052960/23c1ca74-8d64-49c1-b7b6-6e2abc568598)
 
 
-![image](https://github.com/Bizarrespace/254-Open-Source-SoftDev/assets/78052960/39e14ba3-f971-42d3-b015-fba5d355d22d)
+![image](https://github.com/Bizarrespace/254-Open-Source-SoftDev/assets/78052960/7e84baf4-d22c-459c-9033-0a296c72f6d3)
 
 ![image](https://github.com/Bizarrespace/254-Open-Source-SoftDev/assets/78052960/841acafb-9d66-42b6-b395-7a7fe1ff8054)
