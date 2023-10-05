@@ -13,9 +13,10 @@
 * Quiz next wed
 
 
-![image](https://github.com/Bizarrespace/254-Open-Source-SoftDev/assets/78052960/aa60bcff-2170-410c-a37c-94e04680c5ac)
+![image](https://github.com/Bizarrespace/254-Open-Source-SoftDev/assets/78052960/c7f28542-d6fd-42d3-839a-7dbcabe0fedd)
 
-![image](https://github.com/Bizarrespace/254-Open-Source-SoftDev/assets/78052960/eb8956dc-a1e7-4eff-9b3d-ef926f6a124e)
+![image](https://github.com/Bizarrespace/254-Open-Source-SoftDev/assets/78052960/23c1ca74-8d64-49c1-b7b6-6e2abc568598)
+
 
 ![image](https://github.com/Bizarrespace/254-Open-Source-SoftDev/assets/78052960/71c08c2c-489c-475e-b74d-0253b38a058e)
 
