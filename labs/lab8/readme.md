@@ -16,4 +16,12 @@ make partition
 * ![image](https://github.com/Bizarrespace/254-Open-Source-SoftDev/assets/78052960/ce91604f-a01b-47c0-97cf-e3d07c2fb8ca)
 * Mounting disk to directory
 * ![image](https://github.com/Bizarrespace/254-Open-Source-SoftDev/assets/78052960/fc0d8784-2178-4c3b-81da-cc2d3b8e8ea2)
+* Use disk to see that the mount worked =
+* ![image](https://github.com/Bizarrespace/254-Open-Source-SoftDev/assets/78052960/0acc1c88-7c8b-4026-8696-3f3ddb5c11e6)
+* Set to mount with each boot, reason is that when you restart the ubuntu the mount goes away, something in the etc file that you have to change 
+![image](https://github.com/Bizarrespace/254-Open-Source-SoftDev/assets/78052960/4459de43-0519-4055-a297-286c84fece31)
+* After rebooting the mount stays
+* ![image](https://github.com/Bizarrespace/254-Open-Source-SoftDev/assets/78052960/38c5eee5-974d-46d1-b8ca-6b9cc8937cc7)
+
+
 
