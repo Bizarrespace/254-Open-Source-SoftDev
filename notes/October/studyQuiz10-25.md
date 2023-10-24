@@ -23,3 +23,7 @@
 * Command to delete remote branch?
   * git push origin --delete
   
+# Lecture 8
+* Got these wrong on Lecture 8 quiz:
+* 2,3,4,7,8,9,13,15
+* https://www.perplexity.ai/search/Give-you-give-yBydZWpyR76hXIqDe7sWpQ?s=c
