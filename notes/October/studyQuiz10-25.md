@@ -24,6 +24,19 @@
   * git push origin --delete
   
 # Lecture 8
-* Got these wrong on Lecture 8 quiz:
-* 2,3,4,7,8,9,13,15
 * https://www.perplexity.ai/search/Give-you-give-yBydZWpyR76hXIqDe7sWpQ?s=c
+
+* What is the Open Source definition?
+  * Set of ten criteria that must be met for a software license to be labeled "Open Source"
+* Can open SW be used for commercial purposes?
+  * Yes only under certain conditions
+* Can you restrict how ppl use Open Source licensed program?
+  * No, user has the freedom to use it for whatever they want
+* Can you call your program "Open Source" even if you don't use an approved license?
+  * No, OS for SW licensed under OSI-approved license
+* Is SW in public Domain considered open source?
+  * Yes, but only under certain conditions and depending on jurisdiction
+* Difference between Contributor license agreement(CLA) and a copyright assignment agreement(CAA)?
+  * CLA grants a broad set of rights, while a CAA transfers copyright ownership
+* Can you call a program Open Source simply b/c its written in an open source licensed language?
+  * No never
