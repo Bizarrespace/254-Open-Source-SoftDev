@@ -6,6 +6,7 @@
 # Table of Contents
 <h2> 
  
+* [Lecture 6](#lecture-6)
 * [Lab 5](#Lab-5)
 * [Lab 6](#lab-6-Apache2)
 * [Lab 7](#lab-7-Github-versioning)
@@ -19,6 +20,10 @@
 
 </h2>
  
+# Lecture 6
+* Dynamic vs static testing
+  * Dynamic is testing as the code is running
+  * Static is looking at the the code and documentation of the code
 
 # Quiz 4
 * Which command is used to restart the Apache2 web server on most Linux systems?
