@@ -21,11 +21,13 @@
 </h2>
  
 # Lecture 6
+[Back to Top](#table-of-contents)
 * Dynamic vs static testing
   * Dynamic is testing as the code is running
   * Static is looking at the the code and documentation of the code
 
 # Quiz 4
+[Back to Top](#table-of-contents)
 * Which command is used to restart the Apache2 web server on most Linux systems?
   * systemctl restart apache2
   * Reason for using systemctl is because this is the tool for controlling the init system, and services in Linux, Apache 2 is a service on linux, therefore we go through that management tool.
