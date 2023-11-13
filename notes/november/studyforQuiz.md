@@ -236,6 +236,7 @@ Start-Service ssh-agent
   * sudo userdel -r pete
 
  # Lab 13
+  [Back to Top](#table-of-contents)
  * installing new desktops
    * sudo apt-get install kubuntu-desktop
      * Then after logging out of the desktop, at the bottom right, you see a gear selector, you can then change your desktop
