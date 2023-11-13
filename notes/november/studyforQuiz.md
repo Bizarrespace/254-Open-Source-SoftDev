@@ -203,7 +203,7 @@ Start-Service ssh-agent
 * Files & their permissions
   * touch test1 to make file
   * chmod 750 test1
-    * This changes the permissions to give users all permissions, read(4), write(2), execute(1) all added up is 7
+    * This changes the permissions to give owner of file all permissions, read(4), write(2), execute(1) all added up is 7
     * Group only read(4) and execute(1), and others nothing
    
 * What is the command to temp change your group association
@@ -219,6 +219,21 @@ Start-Service ssh-agent
  
 # Lab 12
  [Back to Top](#table-of-contents)
+
+* To be able to connect to our ubuntu server we need to log in through ssh
+  * First we have to set up port forwarding from 3022 to 22, reason is that we are using a virtual machine, and our host machine ssh uses 22, but the ssh in our virtual enviroment cant use the same port so we just port forward to a unused port of 3022 in this case so that the two can talk to each other.
+  * so do ssh <user>@127.0.0.1 -p 3022
+    * password going to be word
+
+* File permissions
+  * If the permissions of a file is 777, or rwxrwx---
+    * Everyone can edit the file and run
+    * But if the directory has permission of 700, then only the owner of the directory is able to make a new file in that directory
+      * Once you change permission of file to 770, then others can not do anything to the file at hand
+     
+* Command to remove a user through admin ssh login
+  * sudo userdel -r pete
+ 
 # Quiz Structure
 * 12 Questions
 * Mimic how final is going to be so Im guessing some MCQ and then some essay style
