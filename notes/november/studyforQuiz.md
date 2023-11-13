@@ -81,21 +81,76 @@ return 0;
   * 0 * * * * "Hello" >> ~/everyHour.txt
   * This command appends Hello to home directory of the current user and then the everyHour.txt file
  
-# Github versioning
+# Lab 7 Github versioning
 * We want to add to add our local repo to a remote repo on github
   * Before we can add, we must set up ssh if we have not done so alerady
     * On Git Bash do ssh-keygen -t ed25519 -C "your_email@example.com"
-      * This makes a new ssh key to use
+      * **This makes a new ssh key to use**
     * Now we want to add SSH key to ssh-agent:
       * Make sure that ssh-agent is running: Get-Service -Name ssh-agent | Set-Service -StartupType Manual
-      * Now add your private key to the agent:
+      * **Now add your private key to the agent:**
         * ssh-add C:\Users\YOU/.ssh/id_ed25519
           * Replace with your actual path and key name
 Start-Service ssh-agent
-      * Now add ssh public key to Github, copy the content of pub key: cat ~/.ssh/id_ed25519.pub
+      * **Now add ssh public key to Github**, copy the content of pub key: cat ~/.ssh/id_ed25519.pub
       * Go to Github settings, Under ssh GPG keys, new ssh key
       * Paste the copied key into Key field
       * Add ssh key
+     
+* Now to add local repo to remote reop
+  * Make a new repo, git init
+  * Now push local Main branch to Origin branch of newly created repo
+    * git remote add origin ssh link
+    * git push origin Main, no we are able to see our local branch on github
+   
+ # Lab 8 Disk Partitioning
+ * What are some of the pros of disk partitioning?
+   * Easier to organize files
+   * Secure environment for specific users
+   * Better organization of different file, for different reasons
+* Steps for making a partition in ubuntu
+  * Boot into disk that is not where your os is
+    * Make a new disk if you have to on virtual box, plug usb for real laptop with ubuntu iso
+  * Commands to see all our disks and partitions:
+    * lsblk
+    * and Fdisk -l
+  * Now make new partition
+    * fdisk /dev/sdb
+      * p to print partition table of specified device
+      * g to make a new GPT disklabel, partition table
+      * n to make a new partition on the selected disk
+        * This will then ask you able what the number of this partition is going to be, and then what from what sector to what sector to allocate the partition
+        * Can do by section # or by just size
+      * w to write to disk
+   * Now to format the partition
+     * sudo mke2fs -j /dev/sdb1
+   * Now to mount it onto the disk
+     * sudo mount /dev/sdb1 /newPartitionTest/
+   * To mount each time we boot into system
+     * change /etc/fstab
+     * Get the UUID from disk in start menu
+     * Now write into file
+       * UUID=... /location ext3 defaults 0 0
+    * Now the partition stays mounted after boot
+ 
+# Lab 9 freeBSD
+* Get ISO
+* Boot from ISO, click install
+* Follow on screen to set up configs
+* Choose disk where you want to install FreeBSD
+* Restart system after done with all configs and settups
+* Should get a FreeBSD BootScreen if done all currently
+
+# Lab 10 Ubuntu Utils 
+* Crontab every hour with using non common macros
+  * @hourly echo "Hello" >> ~/crondataHour.txt
+ 
+* Grep to determine how may entries exist containing the word "cron" in syslog.x
+  * sudo grep -c "cron" /var/log/syslog
+ 
+* What is findmnt used for?
+  * Search for and display mounted file systems or partitions
+  * gives info about currently mounted filesystems, including source devices, mount points, file system tpyes, and mount options
 
 # Quiz Structure
 * 12 Questions
