@@ -14,6 +14,7 @@
 * [Lab 10](#lab-10-Ubuntu-Utils)
 * [Lab 11](#lab-11-Linux-Server)
 * [Lab 12](#lab-12)
+* [Lab 13](#lab-13)
 
 
 </h2>
@@ -233,6 +234,11 @@ Start-Service ssh-agent
      
 * Command to remove a user through admin ssh login
   * sudo userdel -r pete
+
+ # Lab 13
+ * installing new desktops
+   * sudo apt-get install kubuntu-desktop
+     * Then after logging out of the desktop, at the bottom right, you see a gear selector, you can then change your desktop
  
 # Quiz Structure
 * 12 Questions
