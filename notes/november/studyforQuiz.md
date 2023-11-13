@@ -7,11 +7,11 @@
 <h2> 
  
 * [Lab 5](#Lab-5)
-* [Lab 6](#Lab-6)
-* [Lab 7](#Lab-7)
-* [Lab 8](#Lab-8)
-* [Lab 9](#Lab-9)
-* [Lab 10](#Lab-10)
+* [Lab 6](#Lab-6-Apache2)
+* [Lab 7](#Lab-7-Github-versioning)
+* [Lab 8](#Lab-8-Disk-Partitioning)
+* [Lab 9](#Lab-9-freeBSD)
+* [Lab 10](#Lab-10-Ubuntu-Utils)
 
 
 </h2>
