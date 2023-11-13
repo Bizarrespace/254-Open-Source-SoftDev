@@ -3,7 +3,7 @@
 * Lab 5-13
 * Quiz 3-4
 
-<h1>Table of Contents</h1>
+# Table of Contents
 <h2> 
  
 [Lab 5](#Lab-5)
@@ -48,6 +48,7 @@
   * GUID Parition table  
 
 # Lab 5
+[Back to Top](#table-of-contents)
 * If you wanted to install nano use apt what command to use?
   * sudo apt-get install nano
 
