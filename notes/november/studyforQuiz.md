@@ -6,7 +6,14 @@
 # Table of Contents
 <h2> 
  
-[Lab 5](#Lab-5)
+* [Lab 5](#Lab-5)
+* [Lab 6](#Lab-6)
+* [Lab 7](#Lab-7)
+* [Lab 8](#Lab-8)
+* [Lab 9](#Lab-9)
+* [Lab 10](#Lab-10)
+
+
 </h2>
  
 
@@ -75,6 +82,7 @@ return 0;
   * Sudo apt upgrade: to upgraded installed packages to their latest update
 
 # Lab 6 Apache2
+[Back to Top](#table-of-contents)
 * How to make a web page and host using Apache2
   * Have apache2 installed
   * Then go to Apache2 /var/www/html/index.html and change to have your html page that you want
@@ -90,6 +98,7 @@ return 0;
   * This command appends Hello to home directory of the current user and then the everyHour.txt file
  
 # Lab 7 Github versioning
+[Back to Top](#table-of-contents)
 * We want to add to add our local repo to a remote repo on github
   * Before we can add, we must set up ssh if we have not done so alerady
     * On Git Bash do ssh-keygen -t ed25519 -C "your_email@example.com"
@@ -112,6 +121,7 @@ Start-Service ssh-agent
     * git push origin Main, no we are able to see our local branch on github
    
  # Lab 8 Disk Partitioning
+ [Back to Top](#table-of-contents)
  * What are some of the pros of disk partitioning?
    * Easier to organize files
    * Secure environment for specific users
@@ -142,6 +152,7 @@ Start-Service ssh-agent
     * Now the partition stays mounted after boot
  
 # Lab 9 freeBSD
+[Back to Top](#table-of-contents)
 * Get ISO
 * Boot from ISO, click install
 * Follow on screen to set up configs
