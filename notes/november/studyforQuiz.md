@@ -41,9 +41,6 @@
   * GUID Parition table  
 
 # Lab 5
-* How to update system before install new software?
-  * sudo apt-get update
-
 * If you wanted to install nano use apt what command to use?
   * sudo apt-get install nano
 
@@ -59,6 +56,47 @@ return 0;
 * What is a package?
   * Collection of different files, that all get put together into a single file. Reason for this is that software often needs a bunch of files to work, and they might need to be a in a specific place for sofware to work.
   * So to make this easier ubuntu uses packages to manage all these files needed for a certain software to work
+ 
+* How can you list all recently installed packages?
+  * Use logs y dpkg, package managing system in Ubuntu
+  * zcat -f /var/log/dpkg.log* | grep "\ install\ " | sort
+    * \ used to excape spaces, saying that you want to match literal string "install"
+   
+* How can you keep all packages up to date?
+  * sudo apt update: Updates local package database with latest info
+  * Sudo apt upgrade: to upgraded installed packages to their latest update
+
+# Lab 6 Apache2
+* How to make a web page and host using Apache2
+  * Have apache2 installed
+  * Then go to Apache2 /var/www/html/index.html and change to have your html page that you want
+  * Make sure web server has permission to acccess HTML file
+  * Restart the server and access that page using http://localhost
+ 
+* What is a web server?
+  * Software and hardware that accepts requests via HTTP protocols. Able to process, store, and deliver web content to users that request it. Essentially, something that hosts your code so that others on the internet can see your html, css, java without needing acccess to your code or computer.
+ 
+* How to use crontab command to cause Linux system to gen message every hour?
+  * crontab -e: to open crontab file
+  * 0 * * * * "Hello" >> ~/everyHour.txt
+  * This command appends Hello to home directory of the current user and then the everyHour.txt file
+ 
+# Github versioning
+* We want to add to add our local repo to a remote repo on github
+  * Before we can add, we must set up ssh if we have not done so alerady
+    * On Git Bash do ssh-keygen -t ed25519 -C "your_email@example.com"
+      * This makes a new ssh key to use
+    * Now we want to add SSH key to ssh-agent:
+      * Make sure that ssh-agent is running: Get-Service -Name ssh-agent | Set-Service -StartupType Manual
+      * Now add your private key to the agent:
+        * ssh-add C:\Users\YOU/.ssh/id_ed25519
+          * Replace with your actual path and key name
+Start-Service ssh-agent
+      * Now add ssh public key to Github, copy the content of pub key: cat ~/.ssh/id_ed25519.pub
+      * Go to Github settings, Under ssh GPG keys, new ssh key
+      * Paste the copied key into Key field
+      * Add ssh key
+
 # Quiz Structure
 * 12 Questions
 * Mimic how final is going to be so Im guessing some MCQ and then some essay style
