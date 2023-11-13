@@ -12,6 +12,8 @@
 * [Lab 8](#lab-8-Disk-Partitioning)
 * [Lab 9](#lab-9-freeBSD)
 * [Lab 10](#lab-10-Ubuntu-Utils)
+* [Lab 11](#lab-11-Linux-Server)
+* [Lab 12](#lab-12)
 
 
 </h2>
@@ -172,6 +174,51 @@ Start-Service ssh-agent
   * Search for and display mounted file systems or partitions
   * gives info about currently mounted filesystems, including source devices, mount points, file system tpyes, and mount options
 
+* How to limit the listing to just ext4
+  * findmnt -t ext4
+ 
+* What is ss used for?
+  * socket statistics to gather info from kernel space and plays faster than netstate util
+    * info such as local address and port numbers
+   
+* How to filter out just TCP traffic
+  * ss -t
+ 
+* How to just get name and pid
+  * ss -p
+
+ # Lab 11 Linux Server
+ [Back to Top](#table-of-contents)
+* Installing Ubuntu server
+  * Use ISO for server, follow the steps, allocate memory, chose mainly the defaults, and make sure that you install ssh for later
+
+* Making users and groups
+  * Sudo useradd <username>
+    * Verify what users you have by doing tail /etc/passwd
+  * Sudo groupadd <groupname>
+    * Add joe to group
+    * sudo usermod -a -G <groupname> <username>
+    * Test whether we moved the user correctly getent group <groupname>
+
+* Files & their permissions
+  * touch test1 to make file
+  * chmod 750 test1
+    * This changes the permissions to give users all permissions, read(4), write(2), execute(1) all added up is 7
+    * Group only read(4) and execute(1), and others nothing
+   
+* What is the command to temp change your group association
+  * newgrp -<groupname>
+
+* How to change a file's group to another group?
+  * chgrp <groupname> file
+  * OR chown :newgroup file
+ 
+* How to give users passwords
+  * sudo passwd <username>
+  * Will then be prompted to enter in a password
+ 
+# Lab 12
+ [Back to Top](#table-of-contents)
 # Quiz Structure
 * 12 Questions
 * Mimic how final is going to be so Im guessing some MCQ and then some essay style
