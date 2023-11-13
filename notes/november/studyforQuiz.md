@@ -3,6 +3,8 @@
 * Lab 5-13
 * Quiz 3-4
 
+[Lab 5](#Lab 5)
+
 # Quiz 4
 * Which command is used to restart the Apache2 web server on most Linux systems?
   * systemctl restart apache2
