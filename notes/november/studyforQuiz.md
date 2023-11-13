@@ -1,7 +1,7 @@
 # Material 
 * Lecture 5-12
-* Lab 5-13
-* Quiz 3-4
+* Lab 5-13 [Done]
+* Quiz 3-4 [Done]
 
 # Table of Contents
 <h2> 
