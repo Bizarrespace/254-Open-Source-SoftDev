@@ -35,9 +35,6 @@
   * Ext4
  
 * On GPT(GUID Partition Table) disk, what is max # of partitions that can be created?
-
- 
-* 
   * 128 [0 - 127]
  
 * What is GPT in context of disk partitioning?
@@ -46,8 +43,22 @@
 # Lab 5
 * How to update system before install new software?
   * sudo apt-get update
- 
-  
+
+* If you wanted to install nano use apt what command to use?
+  * sudo apt-get install nano
+
+* How to create a simple C file that prints hello world?
+```C
+#include <stdio.h>
+
+int main() {
+printf("Hello world")
+return 0;
+}
+```
+* What is a package?
+  * Collection of different files, that all get put together into a single file. Reason for this is that software often needs a bunch of files to work, and they might need to be a in a specific place for sofware to work.
+  * So to make this easier ubuntu uses packages to manage all these files needed for a certain software to work
 # Quiz Structure
 * 12 Questions
 * Mimic how final is going to be so Im guessing some MCQ and then some essay style
