@@ -3,12 +3,11 @@
 * Lab 5-13
 * Quiz 3-4
 
-
-<h1> 
+<h1>Table of Contents</h1>
+<h2> 
  
 [Lab 5](#Lab-5)
-
-</h1>
+</h2>
  
 
 # Quiz 4
