@@ -5,7 +5,8 @@
 
 # Table of Contents
 <h2> 
- 
+
+* [Lecture 5](#lecture-5)
 * [Lecture 6](#lecture-6)
 * [Lab 5](#Lab-5)
 * [Lab 6](#lab-6-Apache2)
@@ -19,7 +20,90 @@
 
 
 </h2>
- 
+
+# Lecture 5
+[Back to Top](#table-of-contents)
+1. What is a package manager?
+- A. A tool for creating software packages
+- B. A collection of software tools that automate the process of installing, upgrading, configuring, and removing computer programs
+- C. A database of software dependencies and version information
+- D. A tool for managing software repositories
+- Answer: B
+
+2. What does a software package contain?
+- A. Only the source code of a program
+- B. Metadata such as the software's name, description, version number, vendor, checksum, and a list of dependencies
+- C. Only the compiled version of a program
+- D. Only the dependencies of a program
+- Answer: B
+
+3. What is the purpose of the apt-get install command?
+- A. To remove a package
+- B. To update the system’s database of packages
+- C. To install a package along with any dependencies
+- D. To clean the system of unused packages
+- Answer: C
+
+4. What does the apt-get autoremove command do?
+- A. Installs new packages
+- B. Removes any orphaned dependencies
+- C. Updates the system’s database of packages
+- D. Removes a specific package
+- Answer: B
+
+5. What is the function of the apt-cache search command?
+- A. It shows dependency information, version numbers, and a basic description of the package
+- B. It looks for other possible names if you know the name of a piece of software but apt-get install fails
+- C. It lists the packages that the specified packages depend upon
+- D. It generates a list of the currently installed packages on your system
+- Answer: B
+
+6. What is a software repository?
+- A. A tool for managing software packages
+- B. A place where software packages are stored and can be retrieved for installation
+- C. A database of software dependencies and version information
+- D. A tool for creating software packages
+- Answer: B
+
+7. What is the purpose of a local repository in Maven?
+- A. It is a directory on the computer where Maven runs, caching remote downloads and containing temporary build artifacts
+- B. It is a remote server where Maven stores all its packages
+- C. It is a tool for managing software packages
+- D. It is a database of software dependencies and version information
+- Answer: A
+
+8. What is the location of the Debian Repository?
+- A. /etc/apt/source.list
+- B. /etc/apt/repository.list
+- C. /etc/debian/source.list
+- D. /etc/debian/repository.list
+- Answer: A
+
+9. What does the apt-get purge command do?
+- A. It installs a package along with any dependencies
+- B. It removes a specific package, its downloaded package files, and configuration files
+- C. It updates the system’s database of packages
+- D. It removes any orphaned dependencies
+- Answer: B
+
+10. What is the purpose of the apt-get update command?
+- A. It reads the /etc/apt/sources.list file and updates the system’s database of packages available for installation
+- B. It installs a package along with any dependencies
+- C. It removes a specific package, its downloaded package files, and configuration files
+- D. It removes any orphaned dependencies
+- Answer: A
+
+## Short Answer Questions
+
+1. Explain the difference between the `apt-get remove` and `apt-get purge` commands in the context of package management.
+
+    - Answer: The `apt-get remove` command removes the specified package but leaves behind configuration files and potentially some dependencies. On the other hand, `apt-get purge` removes the package, its configuration files, and any unused dependencies. This is useful when you want to completely remove a package and its associated data from your system.
+
+2. What is a software repository and how does it interact with a package manager? Please provide a brief explanation.
+
+    - Answer: A software repository is a storage location from which software packages can be retrieved and installed on a computer. It contains packaged software, metadata about the software like its version, dependencies, and other necessary information. A package manager interacts with the repository to manage the process of installing, upgrading, configuring, and removing software packages. It reads the metadata to resolve dependencies and ensure the correct version of the software and its dependencies are installed. In addition, the package manager updates the list of available packages from the repository to keep track of the latest versions of packages and their dependencies.
+
+
 # Lecture 6
 [Back to Top](#table-of-contents)
 * Dynamic vs static testing
