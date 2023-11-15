@@ -9,6 +9,11 @@
 * [Lecture 5](#lecture-5)
 * [Lecture 6](#lecture-6)
 * [Lecture 7](#lecture-7)
+* [Lecture 8](lecture-8)
+* [Lecture 9](#lecture-9)
+* [Lecture 10](#lecture-10)
+* [Lecture 11](#lecture-11)
+* [Lecture 12](#lecture-12)
 * [Lab 5](#Lab-5)
 * [Lab 6](#lab-6-Apache2)
 * [Lab 7](#lab-7-Github-versioning)
@@ -259,6 +264,27 @@ Correct Answer: A
   * CLA grants a broad set of rights, while a CAA transfers copyright ownership
 * Can you call a program Open Source simply b/c its written in an open source licensed language?
   * No never
+
+# Lecture 9
+[Back to Top](#table-of-contents)
+# Short answer
+* 1. What is the role of a project manager in a software development project and how does it contribute to the success of the project?
+    * Role of project manager is to develop the "Vision" of the project, meaning having what needs to be done, layed out and a plan to get to get their. After the plan has been layed out the project manager is also responsible for making sure that the team is executing on the plan, and that each phrase of the project is being carried out. They also need to asign tasks correctly and resolve any conflicts on the way. 
+
+* 2. What are the key steps to consider when embarking on a software development project and why are they important?
+    * Chose what dev method, Agile, waterfall incremental, then a feasabiltiy analysis, analyze and determine the result, conduct industry best practices, design, measure and track progress, address automation, test, and implement practices grudually.
+    * Agile is useful for emphasizing user stories and user inputs, it also embraces change allowing for products to evolve based on the user feedback and changing market conditions.
+ 
+# Lecture 10
+[Back to Top](#table-of-contents)
+
+# Lecture 11
+[Back to Top](#table-of-contents)
+
+# Lecture 12
+[Back to Top](#table-of-contents)
+
+
 
 # Quiz 4
 [Back to Top](#table-of-contents)
