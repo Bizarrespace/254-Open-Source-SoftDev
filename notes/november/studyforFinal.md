@@ -562,7 +562,7 @@ Start-Service ssh-agent
 
 * To be able to connect to our ubuntu server we need to log in through ssh
   * First we have to set up port forwarding from 3022 to 22, reason is that we are using a virtual machine, and our host machine ssh uses 22, but the ssh in our virtual enviroment cant use the same port so we just port forward to a unused port of 3022 in this case so that the two can talk to each other.
-  * so do ssh <user>@127.0.0.1 -p 3022
+  * so do ssh user@127.0.0.1 -p 3022
     * password going to be word
 
 * File permissions
