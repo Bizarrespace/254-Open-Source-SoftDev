@@ -278,6 +278,49 @@ Correct Answer: A
 # Lecture 10
 [Back to Top](#table-of-contents)
 
+## In class notes for commands
+* grep -i "sshd" Linux_2k.log
+  * -i is case insenitive
+  * grep -ci "sshd" Linux_2k.log
+    * Returns how many lines that had sshd, case insensitive
+  * grep -n "sshd" Linux_2k.log
+    * Gives line number as well
+  * grep -o "sshd" Linux_2k.log
+    * returns the pattern that was matched in the output
+  * grep -r "pattern" /directory
+    * in all files that are present in the present directory, recursive pattern match
+  * grep -v "sshd" Linux_2k.log
+    * returns all lines that ssh does not match
+  * grep -E "[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}" Linux_2k.log
+    * Using regular expression, range from 0 through 9, 3 numbers
+    * This is a general form that finds all the ip addresses in the log
+    * use with -o to find just the IP addresses
+    * using ^ at the beginnig of the "" will return if the pattern is only at the front of the line
+    * using $ at the end will search for IP that is at the end of the ""
+
+### Ping
+  * ping google.com
+    * sends request to server and gets a response back
+  * ping -c 5 google.com
+    * Stops after 5 pings
+
+### Cron
+  * crontab -l
+    * lists all the crontabs
+    * Use unstandard macros for crontabs (QUIZ) ,which one is unstandard
+
+### Alias
+  * rebinding a command to something else, making commands shorter for example
+    * EX: alias ls = "ls -l"
+      * Overridding ls command with ls -l every single time
+  * alias lists out all the alias that you current have
+
+### Ssh
+  * School has own ssh machine that you can use
+  * ssh longvu2000@ecs.fullerton.edu
+    * look at school ssh page to find out how to exactly log in
+   
+
 # Lecture 11
 [Back to Top](#table-of-contents)
 
