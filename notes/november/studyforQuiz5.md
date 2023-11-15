@@ -243,6 +243,22 @@ Correct Answer: A
 
     * This commit message clearly states the problem that was addressed and the specific changes made, providing a concise summary of the commit's purpose.
 
+# Lecture 8
+[Back to Top](#table-of-contents)
+* What is the Open Source definition?
+  * Set of ten criteria that must be met for a software license to be labeled "Open Source"
+* Can open SW be used for commercial purposes?
+  * Yes only under certain conditions
+* Can you restrict how ppl use Open Source licensed program?
+  * No, user has the freedom to use it for whatever they want
+* Can you call your program "Open Source" even if you don't use an approved license?
+  * No, OS for SW licensed under OSI-approved license
+* Is SW in public Domain considered open source?
+  * Yes, but only under certain conditions and depending on jurisdiction
+* Difference between Contributor license agreement(CLA) and a copyright assignment agreement(CAA)?
+  * CLA grants a broad set of rights, while a CAA transfers copyright ownership
+* Can you call a program Open Source simply b/c its written in an open source licensed language?
+  * No never
 
 # Quiz 4
 [Back to Top](#table-of-contents)
