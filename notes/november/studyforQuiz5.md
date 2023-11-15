@@ -109,6 +109,25 @@
 * Dynamic vs static testing
   * Dynamic is testing as the code is running
   * Static is looking at the the code and documentation of the code
+    
+1. The five essential elements for software testing are:
+- **Test Strategy**: This outlines the types and amount of testing that seem best to find defects in the software.
+- **Testing Plan**: This is the part of the project plan that deals with the testing tasks, detailing who will do which tasks, when they will start and end, how much effort they will take, and their dependencies.
+- **Test Cases**: These are detailed examples prepared in advance that are used to check if the software meets its requirements.
+- **Test Data**: This includes both input test data and database test data used while executing test cases.
+- **Test Environment**: This is the setup where the testing is carried out, which should be as close as possible to the final deployment environment.
+
+2. Best practices and strategies for test automation include:
+- Hiring a dedicated automation engineer or team.
+- Understanding that an automation tool is important, but it is not the solution to everything.
+- Selecting an automation tool that is familiar to your resources.
+- Knowing the application being tested.
+- Writing good manual test cases before automating them.
+- Identifying opportunities with automation.
+- Understanding that you cannot automate everything.
+- Avoiding GUI Automation when there is an alternate present.
+- Using automation for other useful purposes as well.
+- Treating automation as software development, following best practices like code reviews, using a framework or design pattern, and maintaining the code.
 
 # Quiz 4
 [Back to Top](#table-of-contents)
