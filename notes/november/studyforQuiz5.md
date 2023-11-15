@@ -8,6 +8,7 @@
 
 * [Lecture 5](#lecture-5)
 * [Lecture 6](#lecture-6)
+* [Lecture 7](#lecture-7)
 * [Lab 5](#Lab-5)
 * [Lab 6](#lab-6-Apache2)
 * [Lab 7](#lab-7-Github-versioning)
@@ -24,74 +25,74 @@
 # Lecture 5
 [Back to Top](#table-of-contents)
 1. What is a package manager?
-- A. A tool for creating software packages
-- B. A collection of software tools that automate the process of installing, upgrading, configuring, and removing computer programs
-- C. A database of software dependencies and version information
-- D. A tool for managing software repositories
-- Answer: B
+    - A. A tool for creating software packages
+    - B. A collection of software tools that automate the process of installing, upgrading, configuring, and removing computer programs
+    - C. A database of software dependencies and version information
+    - D. A tool for managing software repositories
+    - Answer: B
 
 2. What does a software package contain?
-- A. Only the source code of a program
-- B. Metadata such as the software's name, description, version number, vendor, checksum, and a list of dependencies
-- C. Only the compiled version of a program
-- D. Only the dependencies of a program
-- Answer: B
+    - A. Only the source code of a program
+    - B. Metadata such as the software's name, description, version number, vendor, checksum, and a list of dependencies
+    - C. Only the compiled version of a program
+    - D. Only the dependencies of a program
+    - Answer: B
 
 3. What is the purpose of the apt-get install command?
-- A. To remove a package
-- B. To update the system’s database of packages
-- C. To install a package along with any dependencies
-- D. To clean the system of unused packages
-- Answer: C
+    - A. To remove a package
+    - B. To update the system’s database of packages
+    - C. To install a package along with any dependencies
+    - D. To clean the system of unused packages
+    - Answer: C
 
 4. What does the apt-get autoremove command do?
-- A. Installs new packages
-- B. Removes any orphaned dependencies
-- C. Updates the system’s database of packages
-- D. Removes a specific package
-- Answer: B
+    - A. Installs new packages
+    - B. Removes any orphaned dependencies
+    - C. Updates the system’s database of packages
+    - D. Removes a specific package
+    - Answer: B
 
 5. What is the function of the apt-cache search command?
-- A. It shows dependency information, version numbers, and a basic description of the package
-- B. It looks for other possible names if you know the name of a piece of software but apt-get install fails
-- C. It lists the packages that the specified packages depend upon
-- D. It generates a list of the currently installed packages on your system
-- Answer: B
+    - A. It shows dependency information, version numbers, and a basic description of the package
+    - B. It looks for other possible names if you know the name of a piece of software but apt-get install fails
+    - C. It lists the packages that the specified packages depend upon
+    - D. It generates a list of the currently installed packages on your system
+    - Answer: B
 
 6. What is a software repository?
-- A. A tool for managing software packages
-- B. A place where software packages are stored and can be retrieved for installation
-- C. A database of software dependencies and version information
-- D. A tool for creating software packages
-- Answer: B
+    - A. A tool for managing software packages
+    - B. A place where software packages are stored and can be retrieved for installation
+    - C. A database of software dependencies and version information
+    - D. A tool for creating software packages
+    - Answer: B
 
 7. What is the purpose of a local repository in Maven?
-- A. It is a directory on the computer where Maven runs, caching remote downloads and containing temporary build artifacts
-- B. It is a remote server where Maven stores all its packages
-- C. It is a tool for managing software packages
-- D. It is a database of software dependencies and version information
-- Answer: A
+    - A. It is a directory on the computer where Maven runs, caching remote downloads and containing temporary build artifacts
+    - B. It is a remote server where Maven stores all its packages
+    - C. It is a tool for managing software packages
+    - D. It is a database of software dependencies and version information
+    - Answer: A
 
 8. What is the location of the Debian Repository?
-- A. /etc/apt/source.list
-- B. /etc/apt/repository.list
-- C. /etc/debian/source.list
-- D. /etc/debian/repository.list
-- Answer: A
+    - A. /etc/apt/source.list
+    - B. /etc/apt/repository.list
+    - C. /etc/debian/source.list
+    - D. /etc/debian/repository.list
+    - Answer: A
 
 9. What does the apt-get purge command do?
-- A. It installs a package along with any dependencies
-- B. It removes a specific package, its downloaded package files, and configuration files
-- C. It updates the system’s database of packages
-- D. It removes any orphaned dependencies
-- Answer: B
+    - A. It installs a package along with any dependencies
+    - B. It removes a specific package, its downloaded package files, and configuration files
+    - C. It updates the system’s database of packages
+    - D. It removes any orphaned dependencies
+    - Answer: B
 
 10. What is the purpose of the apt-get update command?
-- A. It reads the /etc/apt/sources.list file and updates the system’s database of packages available for installation
-- B. It installs a package along with any dependencies
-- C. It removes a specific package, its downloaded package files, and configuration files
-- D. It removes any orphaned dependencies
-- Answer: A
+    - A. It reads the /etc/apt/sources.list file and updates the system’s database of packages available for installation
+    - B. It installs a package along with any dependencies
+    - C. It removes a specific package, its downloaded package files, and configuration files
+    - D. It removes any orphaned dependencies
+    - Answer: A
 
 ## Short Answer Questions
 
@@ -111,23 +112,119 @@
   * Static is looking at the the code and documentation of the code
     
 1. The five essential elements for software testing are:
-- **Test Strategy**: This outlines the types and amount of testing that seem best to find defects in the software.
-- **Testing Plan**: This is the part of the project plan that deals with the testing tasks, detailing who will do which tasks, when they will start and end, how much effort they will take, and their dependencies.
-- **Test Cases**: These are detailed examples prepared in advance that are used to check if the software meets its requirements.
-- **Test Data**: This includes both input test data and database test data used while executing test cases.
-- **Test Environment**: This is the setup where the testing is carried out, which should be as close as possible to the final deployment environment.
+    - **Test Strategy**: This outlines the types and amount of testing that seem best to find defects in the software.
+    - **Testing Plan**: This is the part of the project plan that deals with the testing tasks, detailing who will do which tasks, when they will start and end, how much effort they will take, and their dependencies.
+    - **Test Cases**: These are detailed examples prepared in advance that are used to check if the software meets its requirements.
+    - **Test Data**: This includes both input test data and database test data used while executing test cases.
+    - **Test Environment**: This is the setup where the testing is carried out, which should be as close as possible to the final deployment environment.
 
 2. Best practices and strategies for test automation include:
-- Hiring a dedicated automation engineer or team.
-- Understanding that an automation tool is important, but it is not the solution to everything.
-- Selecting an automation tool that is familiar to your resources.
-- Knowing the application being tested.
-- Writing good manual test cases before automating them.
-- Identifying opportunities with automation.
-- Understanding that you cannot automate everything.
-- Avoiding GUI Automation when there is an alternate present.
-- Using automation for other useful purposes as well.
-- Treating automation as software development, following best practices like code reviews, using a framework or design pattern, and maintaining the code.
+    - Hiring a dedicated automation engineer or team.
+    - Understanding that an automation tool is important, but it is not the solution to everything.
+    - Selecting an automation tool that is familiar to your resources.
+    - Knowing the application being tested.
+    - Writing good manual test cases before automating them.
+    - Identifying opportunities with automation.
+    - Understanding that you cannot automate everything.
+    - Avoiding GUI Automation when there is an alternate present.
+    - Using automation for other useful purposes as well.
+    - Treating automation as software development, following best practices like code reviews, using a framework or design pattern, and maintaining the code.
+
+# Lecture 7
+[Back to Top](#table-of-contents)
+1. What is version control?
+    - A. A system that records changes to a file or set of files over time.
+    - B. A system that controls the versions of software.
+    - C. A system that controls the versions of hardware.
+    - D. A system that records changes to hardware over time.
+
+Correct Answer: A
+
+2. What is a Version Control System (VCS) useful for?
+    - A. Keeping every version of an image or layout.
+    - B. Reverting the entire project back to a previous state.
+    - C. Comparing changes over time.
+    - D. All of the above.
+
+- Correct Answer: D
+
+3. What is the "revision number" in version control?
+    - A. The number of revisions made to a file.
+    - B. The number or letter code identifying changes.
+    - C. The number of files in a project.
+    - D. The number of changes made to a file.
+
+- Correct Answer: B
+
+4. What is the purpose of revision control in software development?
+    - A. To track and control changes to source code.
+    - B. To maintain documentation and configuration files.
+    - C. To locate and fix bugs.
+    - D. All of the above.
+
+- Correct Answer: D
+
+5. What is a "working copy" in version control?
+    - A. A copy of all files in a particular revision.
+    - B. A copy of the file currently being worked on.
+    - C. A copy of the file that is saved in the repository.
+    - D. A copy of the file that is saved on the developer's computer.
+
+- Correct Answer: A
+
+6. What is the purpose of file locking in version control?
+    - A. To prevent concurrent access problems.
+    - B. To lock files for exclusive write access.
+    - C. To prevent other developers from changing the files.
+    - D. All of the above.
+
+- Correct Answer: D
+
+7. What is version merging in version control?
+    - A. Merging two different versions of the software.
+    - B. Merging two different files into one.
+    - C. Merging changes into the central repository.
+    - D. Merging two different versions of a file.
+
+- Correct Answer: C
+
+8. What is a good practice in version control?
+    - A. Committing often.
+    - B. Committing half-done work.
+    - C. Not testing before committing.
+    - D. Writing bad commit messages.
+
+- Correct Answer: A
+
+9. What is not a backup system?
+    - A. Version Control System (VCS).
+    - B. Cloud storage.
+    - C. External hard drive.
+    - D. All of the above.
+
+- Correct Answer: A
+
+10. What is one of Git’s most powerful features?
+    - A. File locking.
+    - B. Version merging.
+    - C. Branching.
+    - D. Committing.
+
+- Correct Answer: C
+
+## Short answers
+* Explain the difference between file locking and version merging in version control.
+    * File locking is a mechanism that prevents multiple developers from overwriting each other's work by allowing only one developer to have write access to a file at a time. It ensures exclusive write access to a file, avoiding conflicts and maintaining data integrity.
+
+    * Version merging, on the other hand, is the process of combining changes from different branches or versions of a file or project into a single unified version. It allows multiple developers to work on the same file simultaneously and merges their changes to create a cohesive final version that incorporates all the modifications.
+
+* Discuss the importance of writing good commit messages in version control and provide an example of a good commit message.
+    * Writing good commit messages is crucial in version control as it helps in understanding the history and purpose of changes made to a project. Clear and descriptive commit messages provide valuable context to developers, making it easier to track changes, collaborate, and troubleshoot issues. It also helps in maintaining a clean and organized commit history.
+
+    * Example of a good commit message: "Fixed navigation issue between the home screen & about screen"
+
+    * This commit message clearly states the problem that was addressed and the specific changes made, providing a concise summary of the commit's purpose.
+
 
 # Quiz 4
 [Back to Top](#table-of-contents)
