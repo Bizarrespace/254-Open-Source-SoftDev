@@ -1,8 +1,3 @@
-# Material 
-* Lecture 5-12
-* Lab 5-13 [Done]
-* Quiz 3-4 [Done]
-
 # Table of Contents
 <h2> 
 
@@ -22,7 +17,7 @@
 * [Lab 10](#lab-10-Ubuntu-Utils)
 * [Lab 11](#lab-11-Linux-Server)
 * [Lab 12](#lab-12)
-* [Lab 13](#lab-13)
+* [Quiz 4](#quiz-4)
 
 
 </h2>
