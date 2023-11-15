@@ -212,6 +212,24 @@ Correct Answer: A
 
 - Correct Answer: C
 
+* Difference btw Git and other VCS?
+  * Git stores data as snapshots, but diffs
+* What is a branch in Git?
+  * Branch is a pointer to a specific commit
+* Command to list all remote repos connected to current repo?
+  * Git remote
+* Command to fetch changes from remote repo without merging?
+  * Git fetch
+  * git pull to fetch changes and merge into current branch
+* What is default branch name in Git?
+  * Main
+* Command to list all tags in repo?
+  * git tag
+* Command to delete a branch?
+  * git branch -d 'name'
+* Command to delete remote branch?
+  * git push origin --delete
+
 ## Short answers
 * Explain the difference between file locking and version merging in version control.
     * File locking is a mechanism that prevents multiple developers from overwriting each other's work by allowing only one developer to have write access to a file at a time. It ensures exclusive write access to a file, avoiding conflicts and maintaining data integrity.
