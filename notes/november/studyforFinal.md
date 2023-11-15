@@ -319,14 +319,48 @@ Correct Answer: A
   * School has own ssh machine that you can use
   * ssh longvu2000@ecs.fullerton.edu
     * look at school ssh page to find out how to exactly log in
+
+## Short answer questions
+1. What is the purpose of the grep command in Linux and how is it generally used?
+    * Used to search for patterns in a file, like specific words or phrase, can also use regular expression for more complex matching
+2. What is the function of the crontab command in Unix-like computer operating systems?
+    * Used to make, edit, manage cron jobs, which are scheduled tasks that can be run at specific times, dates, and intervals. Used for auto sys maintenance or running concurrent tasks.   
+3. How does the tar command work in Linux and what are its main uses?
+    * Used to create, edit, and extract archive files. Can bundle multiple files and directory into a single archive file, that then can be compressed using various algos. Used for backups or distributing files
+4. What is the purpose of the ssh command in Unix and Linux systems?
+    * Used to secure remote connections between two hosts. Provides secure encrypted communication channel, allowing users to log into remote machines, transfer files, exe commands. Used for remote admin and secure file transfer. 
    
 
 # Lecture 11
 [Back to Top](#table-of-contents)
+## How would you create a linux server?
+* Get server iso
+* Do configs of memory and storage
+* Do network setups and proxy keeping everything default
+* Skip ubuntu pro
+* Install ssh
+* No need to important ssh profile or install anything other packages
+
+## Short answer questions
+1. Explain why Linux servers are often chosen over other server operating systems for enterprise applications.
+    * Offer better performance, secruity, and flexibilty. Linux known for stability and reliability, which is very important to companies.
+2. Discuss the role of Linux servers in powering innovation around the globe.
+    * Free, and also large and active community of devs and contributors who constantly improve and enchance the os, collabortive nature fosters innovation and encourages dev of new tech.  
+3. Describe the advantages of using a Linux server over a Windows server for start-up companies.
+    * Highly customizable, allowing start-up to tailor to their needs, more open-source apps and tools for what they need to get done and saves them a lot of money
+4. Explain how Linux servers offer enhanced permissions that can be optimized for security
+    * Fine-grained control over user permissions and access rights, only allowing wanted group/users to access files and directories.
 
 # Lecture 12
 [Back to Top](#table-of-contents)
-
+1. Explain the importance of using a VPN for Linux security.
+    * Risk of being spied on when connected to unsecure network, VPNs encrypt your data, so no one knows what you are sending or receiving
+2. Describe the process of disabling USB mount for Linux security.
+    * Server settings, configure to not allow usb mounting. Prevents malware in usbs when inserted 
+3. Discuss the role of browser extensions in improving browsing security on Linux.
+    * Can prevent third-party tracking, block mal ads, disable pop-ups and redirects, and block scripts from untrusted sites
+4. What to do in order to improve security on your linux server?
+    * Encrypt drive, enable firewall, disable usb mounting, disable ssh login from root, make bios more secure
 
 
 # Quiz 4
