@@ -29,18 +29,44 @@
 ## Descriptive/Essay Questions
 * Linux Server: 1
   * What a linux server is
-  * The difference between normal Linux distribution vs Linux Server, like the different features I guess?
+    * A powerful and versatile computer system built for reliability, performing various network functionalities. It uses the Linux operating system, already known for its security, stability and open-source nature. 
+  * The difference between normal Linux distribution vs Linux Server
+    * Software differences
+      * Normal: GUI & Desktop environment
+      * Server: CLI & min server applications
+    * Stability & Security:
+      * Normal: Secure, but can still be hardened
+      * Server: Built-in security features for uptime & reliability
+    *  Purpose:
+      *  Normal: Desktop & personal use
+      *  Server: Network services & applications
 * Automated testing: 2
   * Advantages of auto testing
+    * Saves time, automate repetitive and time-consuming tests
   * Different types of auto testing
+    * Unit tests, Web service/API testing, GUI tests
   * 5 Key to having optimal setup for auto testing
+    * Test strategy, test plan, test cases, test data, test environment
 * Scenario Based
   * Related to lab 11 and lab 12(Redo these labs to really understand them)
     * Questions are going to be the same as on those labs like how do we make a team member for example
   * File management and permissions:
     * How to add text without using a file editor
+      * Using echo
+        * ```
+          echo "Hey" > file.txt
+          or
+          echo "Hello" >> file.txt
+          ```
+      * Using cat
+        * ```
+          cat oneFile.txt >> anotherFile.txt
+          ```
     * How to make a backup
-    * Look up cp, which file is first if you want to make backup.txt for example, the syntax on how to use the copy command
+      *  copy command
+      *  ```
+         cp sourceFile DestinationFile
+         ```
 
 ## Given example questions
 * What file to edit to make sure drive mouts on boot?
