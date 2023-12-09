@@ -69,9 +69,26 @@
          ```
 
 ## Given example questions
-* What file to edit to make sure drive mouts on boot?
+* What file to edit to make sure the drive mounts on boot?
+  * /etc/fstab
+    * Have to give UUID, mount point, file system type, any mount options
 * How to make a new group
-* Command to check two points before client and server
+  * sudo groupadd <groupname>
+* Command to check two points between client and server
+  * ping <serverIp>
 * What does conflict mean when dealing with version control
+  * Two users edit the same file at the same time. The VCS then can auto resolve the conflicts, therefore manual intervention is needed, either choose what lines to keep, or merge both into the same file, communication is key to solving the conflicts
 * Scenario:
-  * Make new users, create subdirectory, command to change permissions for each directory based on the criteria that is mentioned, have to know what the numberes mean and what persmissions is assocateid with each nubmers. 
+  * Make new users, create subdirectory, command to change permissions for each directory based on the criteria that is mentioned, have to know what the numberes mean and what persmissions is assocateid with each nubmers.
+    * sudo adduser <username>
+    * sudo mkdir <dirName>
+    * sudo chmod <permissions> <file/directory>
+    * Read(r)- 4, Write(w)- 2, Execute(x)- 1
+    * User(u), Group(g), others(o)
+    * Example:
+      * chmod 755 file
+        * GIves full access to owners, rx to group and others
+    * To change owner or group of file/directory:
+      * sudo chown <user:group> <file/directory>
+      * sudo chown john file
+        * This changes the owner of the file to john
