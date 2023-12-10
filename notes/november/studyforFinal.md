@@ -18,6 +18,7 @@
 * [Lab 11](#lab-11-Linux-Server)
 * [Lab 12](#lab-12)
 * [Quiz 4](#quiz-4)
+* [Quiz 5](#quiz-5)
 
 
 </h2>
@@ -357,7 +358,6 @@ Correct Answer: A
 4. What to do in order to improve security on your linux server?
     * Encrypt drive, enable firewall, disable usb mounting, disable ssh login from root, make bios more secure
 
-
 # Quiz 4
 [Back to Top](#table-of-contents)
 * Which command is used to restart the Apache2 web server on most Linux systems?
@@ -395,6 +395,47 @@ Correct Answer: A
  
 * What is GPT in context of disk partitioning?
   * GUID Parition table  
+
+
+# Quiz 5
+[Back to Top](#table-of-contents)
+* What command used to make new user account on Linux system?
+    * useradd
+ 
+* How can you set a password for a user account?
+    * passwd user1
+ 
+* Command to make new file named notes.txt?
+    * touch notes.txt
+ 
+* How to add text "Important info goes here." to the notes.txt file?
+    * echo "Important info goes here." >> notes.txt
+ 
+* Command to make new directory named documents?
+    * mkdir documents
+ 
+* Command used to set permissions of notes.txt to allow read and write access for owner, and deny access to others?
+    * chmod 600 notes.txt
+ 
+* Command to move notes.txt file into documents directory?
+    * mv notes.txt documents
+
+* Command to change ownership of the backup_folder directory to the user backupuser?
+    * chown backupuser backup_folder
+ 
+## Scenario: User Account management
+* Step 1: User creation
+    * Make user accounts for 3 team members named, user1, user2, user3. Set simple passwords for each account
+        * useradd user1, useradd user2, useradd user3
+        * passwd user1 (in screen choose word); same thing for the other users
+* Step 2: Password policy
+    * Enforce a min password length of 8 characters for all user accounts
+        * sudo nano /etc/login.defs
+        * PASS_MIN_LEN 8
+* Step 3: Account Deactivation
+    * Deactivate account for user3 to prevent further login
+        * sudo userdel -r user3
+
 
 # Lab 5
 [Back to Top](#table-of-contents)
@@ -580,6 +621,4 @@ Start-Service ssh-agent
    * sudo apt-get install kubuntu-desktop
      * Then after logging out of the desktop, at the bottom right, you see a gear selector, you can then change your desktop
  
-# Quiz Structure
-* 12 Questions
-* Mimic how final is going to be so Im guessing some MCQ and then some essay style
+
