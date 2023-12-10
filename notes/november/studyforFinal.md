@@ -611,7 +611,8 @@ Start-Service ssh-agent
     * password going to be word
 
 * File permissions
-  * If the permissions of a file is 777, or rwxrwx---
+  * If the permissions of a file is 777, or rwxrwxrwx
+    * r(4), w(2), x(1)
     * Everyone can edit the file and run
     * But if the directory has permission of 700, then only the owner of the directory is able to make a new file in that directory
       * Once you change permission of file to 770, then others can not do anything to the file at hand
