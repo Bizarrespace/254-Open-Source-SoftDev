@@ -574,12 +574,12 @@ Start-Service ssh-agent
   * Use ISO for server, follow the steps, allocate memory, chose mainly the defaults, and make sure that you install ssh for later
 
 * Making users and groups
-  * Sudo useradd <username>
+  * Sudo useradd username
     * Verify what users you have by doing tail /etc/passwd
-  * Sudo groupadd <groupname>
+  * Sudo groupadd groupname
     * Add joe to group
-    * sudo usermod -a -G <groupname> <username>
-    * Test whether we moved the user correctly getent group <groupname>
+    * sudo usermod -a -G groupname username
+    * Test whether we moved the user correctly getent group groupname
 
 * Files & their permissions
   * touch test1 to make file
@@ -587,15 +587,19 @@ Start-Service ssh-agent
     * This changes the permissions to give owner of file all permissions, read(4), write(2), execute(1) all added up is 7
     * Group only read(4) and execute(1), and others nothing
    
+* What commands takes you to root vs takes you to current user's home?
+    * cd / ;root
+    * cd ~ ;home
+   
 * What is the command to temp change your group association
-  * newgrp -<groupname>
+  * newgrp - groupname
 
 * How to change a file's group to another group?
-  * chgrp <groupname> file
+  * chgrp groupname file
   * OR chown :newgroup file
  
 * How to give users passwords
-  * sudo passwd <username>
+  * sudo passwd username
   * Will then be prompted to enter in a password
  
 # Lab 12
